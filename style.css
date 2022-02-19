@@ -1,0 +1,48 @@
+#gameTable {
+	position: relative;
+	height: 500px;
+	width: 400px;
+	content: "";
+  	clear: both;
+ 	display: table;
+}
+
+#gameCanvas {
+	background-color: whitesmoke;
+	box-shadow: 10px 10px 10px;
+	position: absolute;
+}
+
+.cellButtons {
+	position: relative;
+	width: 18px;
+	height: 18px;
+	margin: 0px 2px 2px 0px;
+	background-color: gray;
+}
+
+.clickedButton {
+	position: relative;
+	width: 18px;
+	height: 18px;
+	margin: 0px 2px 2px 0px;
+	background-color: transparent;
+	text-align: center;
+	color: black;
+}
+
+.marked {
+	position: relative;
+	width: 18px;
+	height: 18px;
+	margin: 0px 2px 2px 0px;
+	background-color: yellow;
+}
+
+.bombs {
+	position: relative;
+	width: 18px;
+	height: 18px;
+	margin: 0px 2px 2px 0px;
+	background-color: red;
+}
